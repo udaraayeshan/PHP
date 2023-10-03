@@ -19,6 +19,37 @@
                 echo cos(90)."<br>";
                 echo log10(100)."<br>";
 
+
+               // mail("ayeshan9821udara@gmail.com" , "subject" , message)
+
+
+       //   2. User Defined  Function
+
+               /*  
+
+               function functionName() {
+                  code to be executed;
+                }
+
+
+                 */
+
+                 
+               function writeMsg() {
+                 echo "Hello world!"."<br>";
+            }
+
+                writeMsg(); // call the function
+
+                function familyName($fname, $year) {
+                    echo "$fname Refsnes. Born in $year <br>";
+                  }
+                  
+                  familyName("Hege", "1975");
+                  familyName("Stale", "1978");
+                  familyName("Kai Jim", "1983");
+
+
         
 
     ?>
