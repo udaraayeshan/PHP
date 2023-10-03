@@ -7,15 +7,24 @@
 </head>
 <body>
     <?php 
-        //  Predetermined Function
+        //  1.Predetermined Function
        
-       echo strlen("udaraayeshan")."<br>";
-
        echo strrev("udara")."<br>";
        echo str_word_count("udara ayeshan")."<br>";
-       echo strpos("CMB is youtube channel"  ,"y");
+       echo strpos("CMB is youtube channel"  ,"y")."<br>";
 
-       
+                // Math Function
+
+                echo sin(90)."<br>";
+                echo cos(90)."<br>";
+                echo log10(100)."<br>";
+
+        
+
     ?>
+
+
+
+
 </body>
 </html>
