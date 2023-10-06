@@ -218,22 +218,45 @@ Conditional assignment operators  */
     //6.PHP String Operators
 
     $txt1 = "Hello";
-    $txt2 = " world!";
-    echo $txt1 . $txt2;
+    $txt2 = " world!";      
+    echo $txt1 . $txt2;    //Concatenation
 
     echo "<br>";
 
 
     $txt1 = "Hello";
-    $txt2 = " world!";
-    $txt1 .= $txt2;
+    $txt2 = " world!";     
+    $txt1 .= $txt2;    //Concatenation assignment
 
     echo $txt1;
 
 
     //7.PHP Array Operators
 
+/*
+
+Operator      	Name	   Example	
++	          Union	       $x + $y	
+==	          Equality	   $x == $y	
+===	          Identity	   $x === $y	
+!=	         Inequality   	$x != $y	
+<>	         Inequality	    $x <> $y	
+!==	        Non-identity 	$x !== $y 
+
+*/
+    // numeric Array
+
+    $names = array(1 , 2, 3, 5, 10, 7);
+
+
+    // Associative Array
+
+    $myArray = array('key1' => 10, 'key' => 20, 'key1' => 30);
+
+
+
     echo "<br>";
+     
     $x = array("a" => "red", "b" => "green");  
     $y = array("c" => "blue", "d" => "yellow");  
     
@@ -277,6 +300,8 @@ Conditional assignment operators  */
 
 
     echo "<br>";
+
+    
 
     //8.PHP Conditional Assignment Operators  {/?: ??}
 
