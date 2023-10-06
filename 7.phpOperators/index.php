@@ -140,6 +140,13 @@ Conditional assignment operators  */
      echo "<br>";
      echo "<br>";
 
+     //Spaceship	{-1 , 0 , 1}
+     
+        $mv1  = 5;
+        $mv2  = 5;
+
+        echo ($mv1<=>$mv2);
+
     //4.PHP Increment / Decrement Operators { }
 
     /* Operator	     Name	                Description	
