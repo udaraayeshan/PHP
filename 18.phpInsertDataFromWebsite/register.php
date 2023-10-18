@@ -4,10 +4,19 @@
 
 include_once 'dbc.php';
 
-$fName =$_POST['fristName'];
+$fName =mysqli_real_escape_string($connet, $_POST['fristName']) ;                 
+$lName =mysqli_real_escape_string($connet, $_POST['lastName']);
+$eName =mysqli_real_escape_string($connet, $_POST['email']) ;
+$pName =mysqli_real_escape_string($connet, $_POST['password']) ;
+
+/* $fName =$_POST['fristName'];                  
 $lName =$_POST['lastName'];
 $eName =$_POST['email'];
-$pName =$_POST['password'];
+$pName =$_POST['password'];  */
+
+
+
+
 
 $sql ="INSERT INTO users (fristName,lastName,email,password)
 VALUES ('$fName','$lName','$eName','$pName');";
