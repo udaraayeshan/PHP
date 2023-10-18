@@ -4,8 +4,8 @@
 
 include_once 'dbc.php';
 
-$fName =mysqli_real_escape_string($connet, $_POST['fristName']) ;                 
-$lName =mysqli_real_escape_string($connet, $_POST['lastName']);
+$fName =mysqli_real_escape_string($connet, $_POST['fristName']) ;                           //SQL INJECTION        
+$lName =mysqli_real_escape_string($connet, $_POST['lastName']);         //Dan user monawa tayip kalath string ekak widiyata pennanne e nisa ape database eke data tika araksha wenawa
 $eName =mysqli_real_escape_string($connet, $_POST['email']) ;
 $pName =mysqli_real_escape_string($connet, $_POST['password']) ;
 
